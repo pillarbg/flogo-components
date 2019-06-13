@@ -6,12 +6,18 @@
   "title": "Transform  FOS planitemrequest to JSON",
   "description": "Activity to connvert exetute request to json",
   "author": "pillarbg",
-  "homepage": "https://github.com/pillarbg/flogo-components/tree/master/activity/fostakmapper",
+  "homepage": "https://github.com/pillarbg/flogo-components/tree/master/activity/fostaskmapper",
+  "display": {
+    "description": "Publish EMS message",
+    "category": "FOS",
+    "uid": "pillarbg-fos",
+    "visible": true
+  },  
   "inputs": [
     {
       "name": "requestType",
       "type": "string",
-      "allowed": ["PlanItemExecuteRequst"],
+      "allowed": ["PlanItemExecuteRequest"],
       "required": true
     },
     {
