@@ -1,0 +1,29 @@
+{
+  "name": "fostaskmapper",
+  "type": "flogo:activity",
+  "ref": "github.com/pillarbg/flogo-components/activity/fostaskmapper",
+  "version": "0.0.1",
+  "title": "Transform  FOS planitemrequest to JSON",
+  "description": "Activity to connvert exetute request to json",
+  "author": "pillarbg",
+  "homepage": "https://github.com/pillarbg/flogo-components/tree/master/activity/fostakmapper",
+  "inputs": [
+    {
+      "name": "requestType",
+      "type": "string",
+      "allowed": ["PlanItemExecuteRequst"],
+      "required": true
+    },
+    {
+      "name": "requestXML",
+      "type": "string",
+      "required": true
+    }
+  ],
+  "outputs": [
+    {
+      "name": "responseJSON",
+      "type": "any"
+    }
+  ]
+}
