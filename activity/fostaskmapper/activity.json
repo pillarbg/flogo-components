@@ -8,7 +8,7 @@
   "author": "pillarbg",
   "homepage": "https://github.com/pillarbg/flogo-components/tree/master/activity/fostaskmapper",
   "display": {
-    "description": "Publish EMS message",
+    "description": "Transform FOS xml requests to json",
     "category": "FOS",
     "uid": "pillarbg-fos",
     "visible": true
